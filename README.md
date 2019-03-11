@@ -1,1 +1,1 @@
-# Neural_Machine_Translation_Polish_Language
+# Unsupervised methods to NLP polish language
