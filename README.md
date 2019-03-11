@@ -1,1 +1,1 @@
-# Unsupervised methods to NLP polish language
+# Unsupervised methods to NLP Polish language
