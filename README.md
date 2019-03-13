@@ -12,4 +12,19 @@ If NLP is a new term for you and sounds a bit mysterious, Yoav Goldberg in his [
 NLP embraces wide range of tasks e.g. Named entity recognition, Sentiment analysis, Automatic summarization, Natural language generation and many more. Each one is a subject for separate project and could be thoroughly studied. 
 
 
-I choose to analyze polish language, which is intentional and I explain below. Nevertheless used methods can be apply to any language and text data.
+Two tested methods in this project are **Unsupervised Word Segmentation into Subword Units** and **GloVe embeddings trained on our own corpus**.
+
+I choose to analyze polish language, which is intentional and I explain below. Nevertheless used methods are applicable to any language and text data.
+
+
+## Motivation
+
+
+
+## About dataset
+
+
+## Unsupervised Word Segmentation into Subword Units
+
+
+## GloVe embeddings trained on our own corpus
