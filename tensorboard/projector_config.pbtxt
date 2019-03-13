@@ -1,5 +1,0 @@
-model_checkpoint_path: "MyDrive/NmtPolishLanguage/tensorboard/model.ckpt"
-embeddings {
-  tensor_name: "embeddings:0"
-  metadata_path: "MyDrive/NmtPolishLanguage/tensorboard/metadata.tsv"
-}
