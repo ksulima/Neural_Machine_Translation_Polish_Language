@@ -18,13 +18,14 @@ I choose to analyze polish language, which is intentional and I explain below. N
 
 
 ## Motivation
-
+ToDo description
 
 
 ## About dataset
-
+ToDo description
 
 ## Unsupervised Word Segmentation into Subword Units
-
+ToDo description
 
 ## GloVe embeddings trained on our own corpus
+ToDo description
