@@ -18,7 +18,7 @@ I intentionally choose Polish language to be analyzed, what I explain below, but
 
 
 ## Motivation
-Polish language is recognized to be among most difficult languages to learn. This implies challenges for both humans and NLP methods, who tries to understand this language. So what makes Polish language particularly difficult?
+Polish language is recognized to be among the most difficult languages to learn. This implies challenges for both humans and NLP methods, who tries to understand this language. So what makes Polish language particularly difficult?
 
 
 ## About dataset
