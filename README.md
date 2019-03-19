@@ -9,16 +9,16 @@ If NLP is a new term for you and sounds a bit mysterious, Yoav Goldberg in his [
 
 >_Natural language processing (NLP) is a collective term referring to automatic computational processing of human languages. This includes both algorithms that take human-produced text as input, and algorithms that produce natural looking text as outputs._
 
-NLP embraces wide range of tasks e.g. Named entity recognition, Sentiment analysis, Automatic summarization, Natural language generation and many more. Each one is a subject for separate project and could be thoroughly studied. 
+NLP embraces wide range of tasks e.g. named entity recognition, sentiment analysis, automatic summarization, natural language generation and many more. Each one is a subject for separate project and could be thoroughly studied. 
 
 
 Two tested methods in this project are **Unsupervised Word Segmentation into Subword Units** and **GloVe embeddings trained on our own corpus**.
 
-I choose to analyze polish language, which is intentional and I explain below. Nevertheless used methods are applicable to any language and text data.
+I intentionally choose Polish language to be analyzed, what I explain below, but be aware that used methods are applicable to any language and text data.
 
 
 ## Motivation
-ToDo description
+Polish language is recognized to be among most difficult languages to learn. This implies challenges for both humans and NLP methods, who tries to understand this language. So what makes Polish language particularly difficult?
 
 
 ## About dataset
