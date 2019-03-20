@@ -28,7 +28,7 @@ Example of tweets with harmful content:<br>
 "Ja mam dla ciebie lepszą propozycję : powieś się gdzieś pod lasem UB-ecka gnido ."<br>
 "macie jej numer zdissujcie ją"
 
-Why is NLP for Polish language difficult?
+#### Why is NLP for Polish language difficult?
 
 The grammar of the Polish language is characterized by a high degree of inflection, and has relatively free word order. There are no articles, and there is frequent dropping of subject pronouns. Distinctive features include the different treatment of masculine personal nouns in the plural, and the complex grammar of numerals and quantifiers.
 
@@ -42,7 +42,13 @@ _two, second_<br>
 **in Polish:**<br>
 _drugiej, drudzy, dwiema, drugimi, dwojgiem, dwaj, drugie, drugiemu, dwojga, dwa, drugiego, dwójką, drugim, druga, dwoma, dwóch, dwojgu, dwójko, drugi, drugą, dwom, dwójce, dwoje, dwójki, drugich, dwójkę, dwie, dwójka_
 
+Syntax is also not trivial. Polish is a synthetic language, it is possible to move words around in the sentence, which often leads to different interpretations of the meaning.
 
+Polish verbs have the grammatical category of aspect. Each verb is either imperfective, meaning that it denotes continuous or habitual events, or perfective, meaning that it denotes single completed events.
+
+Adjectives agree with the noun, they modify in terms of gender, number and case. 
+
+There are various types of sentence in Polish that do not have subjects e.g. sentences formed from certain verbs that can appear without a subject, corresponding to an English impersonal "it", as in _padało_ ("it was raining/snowing").
 
 
 ## Unsupervised Word Segmentation into Subword Units
