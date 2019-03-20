@@ -35,8 +35,10 @@ The grammar of the Polish language is characterized by a high degree of inflecti
 The morphology of the Polish language is highly complex. Alternations affects nouns, adjectives, verbs, and other parts of speech. 
 
 To give you an example let's list all possibilities of some word in two languages:<br>
+
 **in English:**<br>
 _two, second_<br>
+
 **in Polish:**<br>
 _drugiej, drudzy, dwiema, drugimi, dwojgiem, dwaj, drugie, drugiemu, dwojga, dwa, drugiego, dwójką, drugim, druga, dwoma, dwóch, dwojgu, dwójko, drugi, drugą, dwom, dwójce, dwoje, dwójki, drugich, dwójkę, dwie, dwójka_
 
