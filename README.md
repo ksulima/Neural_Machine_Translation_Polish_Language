@@ -28,8 +28,19 @@ Example of tweets with harmful content:<br>
 "Ja mam dla ciebie lepszą propozycję : powieś się gdzieś pod lasem UB-ecka gnido ."<br>
 "macie jej numer zdissujcie ją"
 
+Why is NLP for Polish language difficult?
 
-Polish language is recognized to be among the most difficult languages to learn. This implies challenges for both humans and NLP methods, who tries to understand this language. So what makes Polish language particularly difficult?
+The grammar of the Polish language is characterized by a high degree of inflection, and has relatively free word order. There are no articles, and there is frequent dropping of subject pronouns. Distinctive features include the different treatment of masculine personal nouns in the plural, and the complex grammar of numerals and quantifiers.
+
+The morphology of the Polish language is highly complex. Alternations affects nouns, adjectives, verbs, and other parts of speech. 
+
+To give you an example let's list all possibilities of some word in two languages:<br>
+**in English:**<br>
+_two, second_<br>
+**in Polish:**<br>
+_drugiej, drudzy, dwiema, drugimi, dwojgiem, dwaj, drugie, drugiemu, dwojga, dwa, drugiego, dwójką, drugim, druga, dwoma, dwóch, dwojgu, dwójko, drugi, drugą, dwom, dwójce, dwoje, dwójki, drugich, dwójkę, dwie, dwójka_
+
+
 
 
 ## Unsupervised Word Segmentation into Subword Units
