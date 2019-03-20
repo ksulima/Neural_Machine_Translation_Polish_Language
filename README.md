@@ -1,7 +1,19 @@
-# Unsupervised methods to NLP Polish language
+# Unsupervised methods to NLP Polish language 
+(description is still in progress)
+
+#### Setup
+
+If you wish to run code yourself, the easiest way is to use [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) cloud service.  It provides ready to use enviroment with free GPU, python, keras and all packages already configured to run this code. 
+You need to:
+ 1. clone this repo on your Colab.
+ 2. Download dataset and upload to Colab (described in following notebook)
+ 3. Adjust paths to match proper directories on your Colab.
+ 
+Then you should be able to run notebooks in an order according to numbers in titles.
+
+
 
 ## Introduction
-
 
 This project is dedicated to unsupervised methods of text data transformation. The representation of text in such transformed form is inherent part of Natural Language Processing (NLP) and allows to consume unstructured data by various deep learning algorithms.
 
