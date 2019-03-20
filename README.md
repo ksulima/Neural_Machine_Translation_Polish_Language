@@ -36,10 +36,10 @@ The morphology of the Polish language is highly complex. Alternations affects no
 
 To give you an example let's list all possibilities of some word in two languages:<br>
 
-**in English:**<br>
+**_in English:**<br>
 _two, second_<br>
 
-**in Polish:**<br>
+**_in Polish:**<br>
 _drugiej, drudzy, dwiema, drugimi, dwojgiem, dwaj, drugie, drugiemu, dwojga, dwa, drugiego, dwójką, drugim, druga, dwoma, dwóch, dwojgu, dwójko, drugi, drugą, dwom, dwójce, dwoje, dwójki, drugich, dwójkę, dwie, dwójka_
 
 Syntax is also not trivial. Polish is a synthetic language, it is possible to move words around in the sentence, which often leads to different interpretations of the meaning.
