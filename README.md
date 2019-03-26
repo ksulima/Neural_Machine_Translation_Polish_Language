@@ -3,13 +3,17 @@
 
 #### Setup
 
-If you wish to run code yourself, the easiest way is to use [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) cloud service.  It provides ready to use enviroment with free GPU, python, keras and all packages already configured to run this code. 
-You need to:
- 1. clone this repo on your Colab.
- 2. Download dataset and upload to Colab (described in following notebook)
- 3. Adjust paths to match proper directories on your Colab.
- 
-Then you should be able to run notebooks in an order according to numbers in titles.
+If you wish to run code yourself, the easiest way is to use **Google Colab**. It provides ready to use enviroment with free GPU, python, keras and all packages already configured to run this code.
+
+Here's how you can use it:
+
+1. Open [https://colab.research.google.com](https://colab.research.google.com) click Sign in in the upper right corner, use your Google credentials to sign in.
+2. Click GITHUB tab, paste https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language and press Enter
+3. Choose the notebook you want to open, e.g. 01TextCleaning.ipynb
+4. Click File -> Save a copy in Drive... to save your progress in Google Drive
+5. If you need a GPU, click Runtime -> Change runtime type and select GPU in Hardware accelerator box
+6. Download dataset from my [google drive](https://drive.google.com/drive/folders/1F41MZVPitnya9xE4goWDpw_wVHqqNxLG) or original source (described in paragraph Dataset) and upload it to your google drive. Files should be in directory according to 01TextCleaning.ipynb.
+
 
 
 
