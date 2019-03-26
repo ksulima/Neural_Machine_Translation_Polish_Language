@@ -7,12 +7,12 @@ If you wish to run code yourself, the easiest way is to use **Google Colab**. It
 
 Here's how you can use it:
 
-1. Open [https://colab.research.google.com](https://colab.research.google.com) click Sign in in the upper right corner, use your Google credentials to sign in.
-2. Click GITHUB tab, paste https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language and press Enter
+1. Open [https://colab.research.google.com](https://colab.research.google.com) click **Sign in** in the upper right corner, use your Google credentials to sign in.
+2. Click **GITHUB** tab, paste https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language and press Enter
 3. Choose the notebook you want to open, e.g. 01TextCleaning.ipynb
-4. Click File -> Save a copy in Drive... to save your progress in Google Drive
-5. If you need a GPU, click Runtime -> Change runtime type and select GPU in Hardware accelerator box
-6. Download dataset from my [google drive](https://drive.google.com/drive/folders/1F41MZVPitnya9xE4goWDpw_wVHqqNxLG) or original source (described in paragraph Dataset) and upload it to your google drive. Files should be in directory according to 01TextCleaning.ipynb.
+4. Click **File -> Save a copy in Drive...** to save your progress in Google Drive
+5. If you need a GPU, click **Runtime -> Change runtime type** and select **GPU** in Hardware accelerator box
+6. Download dataset from my [google drive](https://drive.google.com/drive/folders/1F41MZVPitnya9xE4goWDpw_wVHqqNxLG) or original source (described in paragraph Dataset) and upload it to your google drive. Files should be in directory according to **01TextCleaning.ipynb.**
 
 
 
