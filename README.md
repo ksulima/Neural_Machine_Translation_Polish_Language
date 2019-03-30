@@ -37,14 +37,14 @@ I intentionally choose Polish language text to be analyzed, what I elaborate bel
 Dataset comes from [PolEval competition](http://poleval.pl/tasks/task6). It contains tweets collected from openly available Twitter discussions. Original goal is to distinguish between normal/non-harmful tweets and tweets that contain any kind of harmful information. This includes cyberbullying, hate speech, personal threats, accumulation of vulgarities, profane language and related phenomena. 
 
 
-Example of tweets with normal content:<br>
-"Czerwone Gitary, Historia jednej znajomości... i parawany które istniały zawsze…"
+**Example of tweets with normal content:**<br>
+_"Czerwone Gitary, Historia jednej znajomości... i parawany które istniały zawsze…"_
 
-Example of tweets with harmful content:<br>
-"Ja mam dla ciebie lepszą propozycję : powieś się gdzieś pod lasem UB-ecka gnido ."<br>
-"macie jej numer zdissujcie ją"
+**Example of tweets with harmful content:**<br>
+_"Ja mam dla ciebie lepszą propozycję : powieś się gdzieś pod lasem UB-ecka gnido._"<br>
+_"macie jej numer zdissujcie ją"_
 
-#### Why is NLP for Polish language difficult?
+## Why is NLP for Polish language difficult?
 
 The grammar of the Polish language is characterized by a high degree of inflection, and has relatively free word order. There are no articles, and there is frequent dropping of subject pronouns. Distinctive features include the different treatment of masculine personal nouns in the plural, and the complex grammar of numerals and quantifiers.
 
