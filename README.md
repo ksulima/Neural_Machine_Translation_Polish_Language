@@ -69,9 +69,10 @@ There are various types of sentence in Polish that do not have subjects e.g. sen
 
 ## Unsupervised Word Segmentation into Subword Units
 
-One of the possible solution to deal with complex polish morphology is to transform our corpus to be represented with subwords. The idea originally comes from neural machine translation problem.
-If you wish to dive into details, here is the original paper: https://arxiv.org/abs/1508.07909 and source code: https://github.com/rsennrich/subword-nmt
+One of the possible solution to deal with complex polish morphology is to transform our corpus to be represented with subwords. The idea originally comes from neural machine translation problem.<br>
+If you wish to dive into details, here is the original paper: https://arxiv.org/abs/1508.07909 and source code: https://github.com/rsennrich/subword-nmt <br>
 
+Generally the method involves generating subwords from our corpus in an unsupervised learning and use them to replace words in a text. This allows to represent various alternations of the same word with one subword therefore decrease number of unique words in a corpus while keeping the adequate meaning. 
 
 
 
