@@ -88,6 +88,18 @@ for 1000 symbols</t>->  _"pewnie macie sa@@ me pyta@@ nia nie po@@ trafi@@ cie w
 <br>
 for 500 symbols</t>->  _"pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@@ cie wy@@ mys@@ li@@ c now@@ ych"_
 
+@@ is used as separator for subwords.<br>
+We see, that the less subwords we use, the more atomic they have to be to transform given corpus.
+
+
+Now let's see more examples of sentances, where subword **'wymysli@@'** was used:
+
+o - original
+t - transformed
+
+o - > ej sluchajcie zajebistego **wymyslilam** nnjaki najlepszy argument bonnie pamietnikow wampirow nnbo nnie <br>
+t - > ej sluchajcie zajebi@@ stego **wymysli@@** lam nn@@ jaki najlepszy argument bo@@ nnie pamie@@ t@@ nikow wa@@ mpi@@ row nn@@ bo nnie
+
 
 
 
