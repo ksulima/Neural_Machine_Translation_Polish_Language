@@ -78,18 +78,15 @@ Depending on how many subwords is generated to transform orginal text, the creat
 
 The example of results for diffrent number of _symbols_:
 
-**original:** pewnie macie same pytania nie potraficie wymyslic nowych    
-symbols = 10000
-**transformed:** pewnie macie same pytania nie potrafi@@ cie wymysli@@ c nowych 
-
-symbols = 5000
-**transformed:** pewnie macie same pytania nie potrafi@@ cie wymysli@@ c now@@ ych
-
-symbols = 1000
-**transformed:** pewnie macie sa@@ me pyta@@ nia nie po@@ trafi@@ cie wy@@ mysli@@ c now@@ ych
-
-symbols = 500
-**transformed:** pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@@ cie wy@@ mys@@ li@@ c now@@ ych
+**original:** _"pewnie macie same pytania nie potraficie wymyslic nowych"_    
+<br>
+for 10000 symbols</t>->  _"pewnie macie same pytania nie potrafi@@ cie wymysli@@ c nowych"_ 
+<br>
+for 5000 symbols</t>->  _"pewnie macie same pytania nie potrafi@@ cie wymysli@@ c now@@ ych"_
+<br>
+for 1000 symbols</t>->  _"pewnie macie sa@@ me pyta@@ nia nie po@@ trafi@@ cie wy@@ mysli@@ c now@@ ych"_
+<br>
+for 500 symbols</t>->  _"pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@@ cie wy@@ mys@@ li@@ c now@@ ych"_
 
 
 
