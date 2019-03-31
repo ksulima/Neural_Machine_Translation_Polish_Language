@@ -112,14 +112,16 @@ Here are more examples for a subword **'wymysli@@'**. It replaces diffrent alter
 
 ### Results
 
-To measure the impact of preprocessing data with Subword Units, I transformed dataset to Tfidf Vectorizer and build reference Logistic Regression model. I was comparing orginal dataset to that transformed with subwords. To see details go to notebooks `03DataSplitAndModelSubwords.ipynb`
+To measure the impact of preprocessing data with Subword Units. <br> 
+I proprocessed text to TfidfVectorizer and used Logistic Regression as reference model. I was comparing orginal dataset to dataset transformed with subwords. I used f1-score as a performance metric.
 
+I received performance on original dataset **f1-score = 0.33** compared to **f1-score = 0.39** on dataset transformed with subword. This accounts for **17% improvement** in favour of subwords units.
 
-
+Optionally I calculated Receiver Operating Characteristic (ROC) for each variant and plotted below.
 
 <img src="https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language/blob/master/images/roc_baseline_subwords.png" width="500" height="350">
 
-
+To see details go to notebooks `03DataSplitAndModelBaseline.ipynb`
 
 ## GloVe embeddings trained on our own corpus
 ToDo description
