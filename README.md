@@ -117,7 +117,7 @@ I proprocessed text to TfidfVectorizer and used Logistic Regression as reference
 
 I received performance on original dataset **f1-score = 0.33** compared to **f1-score = 0.39** on dataset transformed with subword. This accounts for **17% improvement** in favour of subwords units.
 
-Optionally I calculated Receiver Operating Characteristic (ROC) for each variant and plotted below.
+Below Receiver Operating Characteristic (ROC) plotted for each variant. Gini coefficient improved from 0.60 to 0.66. 
 
 <img src="https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language/blob/master/images/roc_baseline_subwords.png" width="500" height="350">
 
