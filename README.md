@@ -107,8 +107,19 @@ Here are more examples for a subword **'wymysli@@'**. It replaces diffrent alter
 **t** - > _**wymysli@@** cie wazeli@@ nia@@ rze_
 
 **o** - > _prosty przepis **wymyslili** karakan wyglada mial pelne pieluchomajtki_ <br>
-**t** - > _prosty przepis **wymysli@@** li kara@@ kan wyglada mial pelne pie@@ lu@@ cho@@ maj@@ tki
-_
+**t** - > _prosty przepis **wymysli@@** li kara@@ kan wyglada mial pelne pie@@ lu@@ cho@@ maj@@ tki_
+
+
+### Results
+
+To measure the impact of preprocessing data with Subword Units, I transformed dataset to Tfidf Vectorizer and build reference Logistic Regression model. I was comparing orginal dataset to that transformed with subwords. To see details go to notebooks `03DataSplitAndModelSubwords.ipynb`
+
+
+
+
+<img src="https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language/blob/master/images/roc_baseline_subwords.png" width="500" height="350">
+
+
 
 ## GloVe embeddings trained on our own corpus
 ToDo description
