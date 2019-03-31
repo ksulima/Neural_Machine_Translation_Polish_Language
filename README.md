@@ -78,15 +78,15 @@ Depending on how many subwords is generated to transform orginal text, the creat
 
 The example of results for diffrent number of _symbols_:
 
-**original:** _"pewnie macie same pytania nie potraficie wymyslic nowych"_    
+**original:** _pewnie macie same pytania nie potraficie wymyslic nowych_    
 <br>
-for 10000 symbols</t>->  _"pewnie macie same pytania nie potrafi@@ cie wymysli@@ c nowych"_ 
+for 10000 symbols</t>->  _pewnie macie same pytania nie potrafi@@ cie wymysli@@ c nowych_ 
 <br>
-for 5000 symbols</t>->  _"pewnie macie same pytania nie potrafi@@ cie wymysli@@ c now@@ ych"_
+for 5000 symbols</t>->  _pewnie macie same pytania nie potrafi@@ cie wymysli@@ c now@@ ych_
 <br>
-for 1000 symbols</t>->  _"pewnie macie sa@@ me pyta@@ nia nie po@@ trafi@@ cie wy@@ mysli@@ c now@@ ych"_
+for 1000 symbols</t>->  _pewnie macie sa@@ me pyta@@ nia nie po@@ trafi@@ cie wy@@ mysli@@ c now@@ ych_
 <br>
-for 500 symbols</t>->  _"pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@@ cie wy@@ mys@@ li@@ c now@@ ych"_
+for 500 symbols</t>->  _pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@@ cie wy@@ mys@@ li@@ c now@@ ych_
 
 @@ is used as separator for subwords.<br>
 We see, that the less subwords we use, the more atomic they have to be to transform given corpus.
@@ -94,14 +94,21 @@ We see, that the less subwords we use, the more atomic they have to be to transf
 
 Now let's see more examples of sentances, where subword **'wymysli@@'** was used:
 
-o - original
-t - transformed
+**o - original** <br>
+**t - transformed**
 
-o - > ej sluchajcie zajebistego **wymyslilam** nnjaki najlepszy argument bonnie pamietnikow wampirow nnbo nnie <br>
-t - > ej sluchajcie zajebi@@ stego **wymysli@@** lam nn@@ jaki najlepszy argument bo@@ nnie pamie@@ t@@ nikow wa@@ mpi@@ row nn@@ bo nnie
+**o** - > _ej sluchajcie zajebistego **wymyslilam** nnjaki najlepszy argument bonnie pamietnikow wampirow nnbo nnie_ <br>
+**t** - > _ej sluchajcie zajebi@@ stego **wymysli@@** lam nn@@ jaki najlepszy argument bo@@ nnie pamie@@ t@@ nikow wa@@ mpi@@ row nn@@ bo nnie_
 
+**o** - > _komentarz raz slyszac trybuny zastanawiam **wymyslil** mecze pn obejrzal choc_ <br>
+**t** - > _komentarz raz **slysz@@** ac trybu@@ ny zastanawiam wymysli@@ l mecze pn obejrz@@ al choc_
 
+**o** - > _**wymyslicie** wazeliniarze_ <br>
+**t** - > _**wymysli@@** cie wazeli@@ nia@@ rze_
 
+**o** - > _prosty przepis **wymyslili** karakan wyglada mial pelne pieluchomajtki_ <br>
+**t** - > _prosty przepis **wymysli@@** li kara@@ kan wyglada mial pelne pie@@ lu@@ cho@@ maj@@ tki
+_
 
 ## GloVe embeddings trained on our own corpus
 ToDo description
