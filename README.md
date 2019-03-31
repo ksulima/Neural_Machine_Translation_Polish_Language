@@ -1,5 +1,5 @@
 # Unsupervised methods to NLP Polish language 
-(description is still in progress)
+
 
 #### Setup
 
