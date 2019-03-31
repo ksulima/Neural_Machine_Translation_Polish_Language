@@ -69,10 +69,28 @@ There are various types of sentence in Polish that do not have subjects e.g. sen
 
 ## Unsupervised Word Segmentation into Subword Units
 
-One of the possible solution to deal with complex polish morphology is to transform our corpus to be represented with subwords. The idea originally comes from neural machine translation problem.<br>
+One of the possible solution to deal with complex polish morphology is to transform our corpus to be represented with subwords. The idea originally comes from neural machine translation and helps to resolve the problem of rare words.<br>
 If you wish to dive into details, here is the original paper: https://arxiv.org/abs/1508.07909 and source code: https://github.com/rsennrich/subword-nmt <br>
 
-Generally the method involves generating subwords from our corpus in an unsupervised learning and use them to replace words in a text. This allows to represent various alternations of the same word with one subword therefore decrease number of unique words in a corpus while keeping the adequate meaning. 
+The method involves generating subwords from our corpus in an unsupervised learning and use them to replace words in a text. This allows to represent various alternations of the same word with one subword therefore decrease number of unique words in a corpus while keeping the adequate meaning. 
+
+Depending on how many subwords is generated to transform orginal text, the created subwords are more or less atomic. We control number of subwords with hyperparameter _symbols_.  
+
+The example of results for diffrent number of _symbols_:
+
+**original:** pewnie macie same pytania nie potraficie wymyslic nowych    
+symbols = 10000
+**transformed:** pewnie macie same pytania nie potrafi@@ cie wymysli@@ c nowych 
+
+symbols = 5000
+**transformed:** pewnie macie same pytania nie potrafi@@ cie wymysli@@ c now@@ ych
+
+symbols = 1000
+**transformed:** pewnie macie sa@@ me pyta@@ nia nie po@@ trafi@@ cie wy@@ mysli@@ c now@@ ych
+
+symbols = 500
+**transformed:** pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@@ cie wy@@ mys@@ li@@ c now@@ ych
+
 
 
 
