@@ -121,7 +121,7 @@ Below Receiver Operating Characteristic (ROC) plotted for each variant. **Gini c
 
 <img src="https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language/blob/master/images/roc_baseline_subwords.png" width="500" height="350">
 
-To see details go to notebooks `03DataSplitAndModelBaseline.ipynb`
+More details you can find in notebook `03DataSplitAndModelBaseline.ipynb`
 
 ## GloVe embeddings trained on our own corpus
 ToDo description
