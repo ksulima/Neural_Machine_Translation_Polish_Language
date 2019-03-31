@@ -90,9 +90,9 @@ for 500 symbols</t>->  _pewnie ma@@ cie sa@@ m@@ e pyta@@ nia nie po@@ tra@@ fi@
 
 @@ is used as separator for subwords.<br>
 We see, that the less subwords we use, the more atomic they have to be to transform given corpus.
+As we see, the value of hyperparameter is crucial for final result.
 
-
-Now let's see more examples of sentances, where subword **'wymysli@@'** was used:
+Here are more examples for a subword **'wymysli@@'**. It replaces diffrent alternations of the same word.
 
 **o - original** <br>
 **t - transformed**
@@ -101,7 +101,7 @@ Now let's see more examples of sentances, where subword **'wymysli@@'** was used
 **t** - > _ej sluchajcie zajebi@@ stego **wymysli@@** lam nn@@ jaki najlepszy argument bo@@ nnie pamie@@ t@@ nikow wa@@ mpi@@ row nn@@ bo nnie_
 
 **o** - > _komentarz raz slyszac trybuny zastanawiam **wymyslil** mecze pn obejrzal choc_ <br>
-**t** - > _komentarz raz **slysz@@** ac trybu@@ ny zastanawiam wymysli@@ l mecze pn obejrz@@ al choc_
+**t** - > _komentarz raz slysz@@ ac trybu@@ ny zastanawiam **wymysli@@** l mecze pn obejrz@@ al choc_
 
 **o** - > _**wymyslicie** wazeliniarze_ <br>
 **t** - > _**wymysli@@** cie wazeli@@ nia@@ rze_
