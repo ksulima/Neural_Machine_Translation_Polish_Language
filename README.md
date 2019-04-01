@@ -144,3 +144,8 @@ The implementation is presented in `02SubwordsAndEmbeddings.ipynb`.
 Finally I use **Tensorboard** to visualize the the vectorized representation of words.
 
 
+<img src="https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language/blob/master/images/embeddings_1.PNG" width="500" height="350">
+
+
+<img src="https://github.com/ksulima/Unsupervised-method-to-NPL-Polish-language/blob/master/images/embeddings_2.PNG" width="500" height="350">
+
