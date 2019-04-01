@@ -109,6 +109,7 @@ Here are more examples for a subword **'wymysli@@'**. It replaces diffrent alter
 **o** - > _prosty przepis **wymyslili** karakan wyglada mial pelne pieluchomajtki_ <br>
 **t** - > _prosty przepis **wymysli@@** li kara@@ kan wyglada mial pelne pie@@ lu@@ cho@@ maj@@ tki_
 
+To see the code and details see `02SubwordsAndEmbeddings.ipynb`
 
 ### Results
 
@@ -124,4 +125,22 @@ Below Receiver Operating Characteristic (ROC) plotted for each variant. **Gini c
 More details you can find in notebook `03DataSplitAndModelBaseline.ipynb`
 
 ## GloVe embeddings trained on our own corpus
-ToDo description
+
+The next method we use is GloVe. GloVe stands for Global Vectors for Word Representation. It is an unsupervised learning algorithm for obtaining vector representations for words. I'm not going to explain thoroughly the method, as it's well described by authors [https://nlp.stanford.edu/projects/glove/](https://nlp.stanford.edu/projects/glove/) 
+
+When you work with english text data, there are well pretrained publicly available embeddings and applying then often brings good results. For text data in polish language,  you rather need to train embeddings on your own corpus, as such a pretrained vector representations for polish words are not yet available. <br>
+The important thing is also that when you try to resolve some specific problem, or data you use has some specific context, training your own embeddings is better approach.
+
+There are two main steps to train custom embeddings:
+
+**Generate co-occurrence statistics**
+
+The GloVe model is trained on the non-zero entries of a global word-word co-occurrence matrix, which tabulates how frequently words co-occur with one another in a given corpus. Populating this matrix requires a single pass through the entire corpus to collect the statistics. For large corpora, this pass can be computationally expensive, but it is a one-time up-front cost.
+
+**Core GloVe embeddings**
+
+The implementation is presented in `02SubwordsAndEmbeddings.ipynb`. 
+
+Finally I use **Tensorboard** to visualize the the vectorized representation of words.
+
+
